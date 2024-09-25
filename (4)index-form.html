@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unggah Dokumen dan Lengkapi Data</title>
+    <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+    <div id="register" class="container">
+        <form>
+          <h2><b>Data Calon Mahasiswa</b></h2>
+          <p> Silahkan lengkapi data di bawah ini</p>
+          <div class="text-divider"></div><br>
+          <div class="desc"><label for="date">DATA DIRI</label></div><br>
+          <table border="0">
+            <tr>
+              <td>Nama Lengkap    </td>
+              <td>:</td>
+              <td colspan="3"> <input type="text" id="name"></td>
+            </tr>
+            <tr>
+              <td>Jenis Kelamin</td>
+              <td>:</td>
+              <td>
+                  <input type="radio" id="gender" placeholder="Laki-laki" class="radio-form">
+                  <label for="gender">Laki-laki</label><br>
+                <!-- </div> -->
+              </td>
+              <td> 
+                  <input type="radio" id="gender" placeholder="Perempuan" class="radio-form">
+                      <label for="gender">Perempuan</label>
+                <!-- </div> -->
+              </td>
+            </tr>
+            <tr>
+              <td>Tanggal Lahir    </td>
+              <td>:</td>
+              <td colspan="3"> <input type="Date" id="ttl"></td>
+            </tr>
+            <tr>
+              <tr>
+                <td>Alamat    </td>
+                <td>:</td>
+                <td colspan="3"> <input type="text" id="name"></td>
+              </tr>
+              <tr>
+                <td>Alamat Email    </td>
+                <td>:</td>
+                <td colspan="3"> <input type="email" id="email"></td>
+              </tr>
+              <tr>
+                <td>Nomor handphone/Whatsapp    </td>
+                <td>:</td>
+                <td colspan="3"> <input type="num" id="no"></td>
+              </tr>
+              <tr>
+              <td>Asal Sekolah    </td>
+              <td>:</td>
+              <td colspan="3"> <input type="text" id="name"></td>
+            </tr>
+            <tr>
+              <td>NISN    </td>
+              <td>:</td>
+              <td colspan="3"> <input type="number" id="name"></td>
+            </tr>
+            <tr>
+              <td>Unggah Ijazah</td>
+              <td>:</td>
+              <td colspan="3"> <input type="file" id="file" class="file"></td>
+            </tr>
+            <tr>
+              <td>Unggah Kartu Kelahiran</td>
+              <td>:</td>
+              <td colspan="3"> <input type="file" id="file" class="file"></td>
+            </tr>
+            <tr>
+              <td>Unggah Akta Kelahiran</td>
+              <td>:</td>
+              <td colspan="3"> <input type="file" id="file" class="file"></td>
+            </tr>
+            <tr>
+              <td>Pilihan Jurusan 1    </td>
+              <td>:</td>
+              <td > <input type="text" id="name"></td>
+            </tr>
+          </table>
+
+          <!-- <div class="text-divider"></div><br> -->
+          <div class="text-table"></div><br><br>
+          <div class="desc"><label>DATA ORANG TUA/WALI</label></div><br>
+          
+          <table border="0">
+            <tr>
+            </tr>
+            <tr>
+              <td>Nama Lengkap</td>
+              <td>:</td>
+              <td colspan="3"> <input type="text" id="name"></td>
+            </tr>
+            <tr>
+              <td>Jenis Kelamin</td>
+              <td>:</td>
+              <td>
+                  <input type="radio" id="gender" placeholder="Laki-laki" class="radio-form">
+                  <label for="gender">Laki-laki</label>
+                <!-- </div> -->
+              </td>
+              <td> 
+                  <input type="radio" id="gender" placeholder="Perempuan" class="radio-form">
+                      <label for="gender">Perempuan</label>
+                <!-- </div> -->
+              </td>
+            </tr>
+            <tr>
+              <td>Tanggal Lahir    </td>
+              <td>:</td>
+              <td colspan="3"> <input type="Date" id="ttl"></td>
+            </tr>
+            <tr>
+              <td>Alamat Email    </td>
+              <td>:</td>
+              <td colspan="3"> <input type="email" id="email"></td>
+            </tr>
+            <tr>
+              <td>Nomor handphone/Whatsapp    </td>
+              <td>:</td>
+              <td colspan="3"> <input type="num" id="no"></td>
+            </tr>
+            <tr>
+              <td>Pendidikan Terakhir </td>
+              <td>:</td>
+              <td> <select class="selection">
+                <option>Sekolah Dasar</option>
+                <option>Sekolah Menengah Atas</option>
+                <option>Sekolah Menengah Atas</option>
+                <option>D3</option>
+                <option>S1</option>
+                <option>S2</option>
+                <option>S2</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>Pekerjaan </td>
+              <td>:</td>
+              <td colspan="3"> <input type="text" id="occupation"></td>
+            </tr>
+            <tr>
+              <td>Alamat    </td>
+              <td>:</td>
+              <td colspan="3"> <input type="text" id="name"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td colspan="3"> <input type="text" id="name"></td>
+            </tr>
+          </table>
+
+          <button type="submit" class="save">Save</button>
+        </form>
+
+
+    </div>
+    <br><br>
+</body>
+</html>

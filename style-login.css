@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@400;700&display=swap');
+.jumbotron{
+    padding: 1px;
+    background-color: #f0f2f5;
+    text-align: center;
+    font-size: 30px;
+    color: #3975ea;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1px;
+    /* margin-bottom: -20px; */
+}
+
+body{
+    background-color: #fffae7;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    display: flexbox;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+form .opening{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+form input{
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    text-align:justify;
+    padding-left:15px ;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: 1px solid #aeaeae;
+    border: #aeaeae;
+    font-family: 'Poppins', sans-serif;
+}
+
+form a{
+    font-size: 15px;
+    margin-top: 1px;
+    text-decoration: none;
+}
+
+form button{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    background:#a59675;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button a{
+    text-decoration: none;
+    color: white;
+}
+
+form .new-account{
+    width: 250px;
+    height: 43px;
+    font-size: 15px;
+    background:#bdae8e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.new-account a{
+    text-align: left;
+    color: white;
+}
+
+.text-divider {
+    --text-divider-gap: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.9375rem;
+    letter-spacing: 0.1em;
+  }
+  
+.text-divider::before, .text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: silver;
+    flex-grow: 1;
+  }
+  
+.text-divider::before {
+    margin-right: var(--text-divider-gap);
+    }
+    
+.text-divider::after {
+    margin-left: var(--text-divider-gap);
+    }
+    
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    justify-content: center;
+    }
+    
